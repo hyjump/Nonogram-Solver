@@ -73,7 +73,7 @@ Solve can be interrupted at any time with Stop.
 - Step runs exactly one propagation pass: it generates valid line patterns for all rows and columns, intersects them, and applies any forced cells.
 - Solve repeats propagation until it cannot make further changes, then switches to backtracking search. It chooses a row/column with the fewest valid candidates, branches on a candidate, and continues propagation in each branch. The search stops after 2 solutions to report "multiple solutions".
 
-![Step demo](img/Step.gif)
+  ![Step demo](img/Step.gif)
 
 ## JSON File Format
 
