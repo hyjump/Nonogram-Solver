@@ -1,6 +1,6 @@
 # Nonogram / Picross Solver (Tkinter)
 
-（[简体中文](./README_ZH.md)|[English](./README.md)）
+([简体中文](./README_ZH.md)|[English](./README.md))
 
 A local desktop Nonogram (Picross) solver with a Tkinter GUI. Enter row and column clues, solve using logic propagation plus backtracking, and save/load puzzles as JSON. Designed for Python 3.10+ with no third-party dependencies.
 
