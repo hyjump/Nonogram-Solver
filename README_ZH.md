@@ -97,19 +97,3 @@ README_ZH.md
 examples/
   sample_10x10.json
 ```
-
-## 发布到 GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-在 GitHub 创建仓库后执行：
-
-```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git branch -M main
-git push -u origin main
-```
