@@ -115,23 +115,6 @@ This project does not include a built-in PNG export. You can:
 - Use a screenshot tool, or
 - Add Pillow yourself and export from the canvas
 
-## Publish to GitHub
-
-From the project root:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-Create a new repository on GitHub, then:
-
-```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git branch -M main
-git push -u origin main
-```
 
 ## Troubleshooting
 
