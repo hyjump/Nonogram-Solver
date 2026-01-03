@@ -61,6 +61,8 @@ The solver works in two phases:
    - Filter patterns against current known cells.
    - Intersect all valid patterns to determine forced cells.
 
+  ![Step demo](img/step-demo.gif)
+
 2) **Backtracking (DFS)**
    - If propagation stalls, choose the row/column with the fewest candidates.
    - Branch on candidate patterns, continue propagation.
