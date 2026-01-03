@@ -68,6 +68,8 @@ python main.py
 - Step：只做一轮传播（行+列各一次），用于观察推理进度。
 - Solve：重复传播直到无法推进，然后进入回溯搜索。
 
+  ![Step 演示](img/Step.gif)
+
 ## JSON 文件格式
 
 ```json
